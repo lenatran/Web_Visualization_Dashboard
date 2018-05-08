@@ -1,0 +1,191 @@
+body {
+  background: lightgray;
+  width: 100%;
+  height: 100;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+a:focus {
+  background-color: lightgray;
+}
+
+.card {
+  background: white;
+}
+
+.card-comp {
+  border: 0;
+}
+
+.card-left {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.card-right {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  left: 100px;
+  padding: 20px;
+}
+
+.card-right-2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  left: 100px;
+  padding: 20px;
+}
+
+.card-viz {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.caption {
+  display: block;
+}
+
+h1, h2 {
+  color: darkturquoise;
+}
+
+h4 {
+  color: darkturquoise;
+  text-align: center;
+  font-size: 27px;
+}
+
+img {
+  float: left;
+  height: 50%;
+  width: 30%;
+  padding: 10px;
+}
+
+.img-card {
+  margin: auto;
+  float: none;
+  height: 54%;
+  width: 55%
+}
+
+.img-responsive {
+  height: 165px;
+  width: 165px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.img-comp {
+  height: 300px;
+  width: 300px;
+  margin-left: 85px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {                
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  font-size: 27px;
+  color: white !important;
+  background: darkturquoise;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+  border-top-color: darkturquoise;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-comp {
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: thin;
+    align-items: center;
+  }
+  .card-left {
+    width: 900px;
+    left: 10px;
+    height: 450px;
+    margin-top: 10px;
+  }
+  .card-right {
+    width: 900px;
+    left: 25px;
+    height: 268px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .card-right-2 {
+    width: 875px;
+    left: 25px;
+    height: 280px;
+    margin-top: 10px;
+    padding: 10px
+  }
+  .card-viz {
+    width: 875px;
+    left: 10px;
+    height: 450px;
+    margin-top: 10px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: darkturquoise;
+    color: darkturquoise;
+    border-top-width: 0;
+  }
+  .navbar {
+    background-color: darkturquoise;
+    padding: 0;
+  }
+  .navbar-collapse {
+    background-color: white;
+  }
+  .navbar-brand {
+    height: 40px;
+    padding: 0;
+  }
+}
+
